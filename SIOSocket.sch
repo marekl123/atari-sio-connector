@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:SIOSocket-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Atari:Atari_SIO_Connector J1
+L SIOSocket-rescue:Atari_SIO_Connector-Atari J1
 U 1 1 5DB821E3
 P 6400 3650
 F 0 "J1" H 6728 3946 50  0000 L CNN

@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Atari_SIO_Connector-Atari
+#
+DEF Atari_SIO_Connector-Atari U 0 40 Y Y 1 F N
+F0 "U" -545 215 50 H V C CNN
+F1 "Atari_SIO_Connector-Atari" -780 455 50 H V C CNN
+F2 "" 0 -100 50 H I C CNN
+F3 "" 0 -100 50 H I C CNN
+DRAW
+P 2 0 1 0 -410 770 -410 770 N
+P 5 0 1 0 -400 300 -450 100 300 100 250 300 -400 300 f
+X Clock_Input 1 -350 150 100 D 50 50 1 1 I C
+X +5V/Ready 10 100 250 100 U 50 50 1 1 w
+X Audio_Input 11 150 150 100 D 50 50 1 1 I
+X +12V 12 200 250 100 U 50 50 1 1 W
+X Interrupt 13 250 150 100 D 50 50 1 1 B
+X Clock_Output 2 -300 250 100 U 50 50 1 1 O C
+X Data_Input 3 -250 150 100 D 50 50 1 1 I
+X Ground 4 -200 250 100 U 50 50 1 1 P
+X Data_Output 5 -150 150 100 D 50 50 1 1 O
+X Ground 6 -100 250 100 U 50 50 1 1 P
+X Command 7 -50 150 100 D 50 50 1 1 B
+X Motor_Control 8 0 250 100 U 50 50 1 1 B
+X Proceed 9 50 150 100 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library
